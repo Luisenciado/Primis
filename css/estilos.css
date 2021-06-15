@@ -1,0 +1,260 @@
+@font-face{
+	font-family: "Chilanka";
+	src:url("../fonts/Chilanka-Regular.ttf");
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:16px;
+}
+
+body{
+	font-size:0px;
+	font-family: sans-serif;
+	margin-top: 75px;
+}
+
+#cabecera{
+	background-color: blueviolet;
+	width: 100%;
+	position: fixed;
+	top:0px;
+	text-align: center;
+}
+
+figure{
+	width: 15%;
+	padding: 5px 0px;
+	display: inline-block;
+	min-width: 190px;
+}
+
+.empresa, .opcion{
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logotipo{
+	width: 75px;
+	display: inline-block;
+	vertical-align:middle;
+
+}
+
+#nombre{
+	font-size: 2rem;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+	color: darkred;
+}
+
+#menu-ham{
+	display: none;
+}
+
+#menu-ham-open, #menu-hamb-close{
+display: none;
+text-align: center;
+border: 1px goldenrod;
+min-width: 50px;
+vertical-align: bottom;
+}
+
+#menu-ham-open img, #menu-hamb-close img{
+width: 30px;
+vertical-align: middle;
+}
+
+#menuPrincipal{
+	width: 75%;
+	min-width: 300%;
+	display: inline-block;
+	text-align: right;
+}
+
+.opcion{
+	font-size: 1rem;
+	color: darkturquoise;
+	padding: 10px;
+}
+
+.opcion:hover{
+	color: firebrick;
+}
+
+.contenido{
+	padding: 3% 10%;
+	text-align: center;
+	min-width: 320px;
+}
+
+#quien{
+	background-color: gold;
+}
+
+
+
+#quien img, #quien article{
+	border-radius: 0 20px;
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#quien img{
+	border-radius: 0px 20px;
+}
+
+#quien article{
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+	text-align: left;
+}
+
+#quien h1, #contacto h1{
+	font-size: 3.5rem;
+	color: rgb(163, 6, 211);
+	padding-bottom: 10px;
+}
+
+#quien p{
+	font-size: 1rem;
+	color: indigo;
+	line-height: 1.5rem;
+	padding-bottom: 20px;
+}
+
+#quien a, .proy a{
+	font-size: 1.2rem;
+	text-decoration: none;
+	display: block;
+	background-color: rgb(190, 188, 16);
+	width: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	color: rgb(6, 37, 36);
+	border: 1px solid darkorange;
+	text-align: center;
+}
+
+#quien a:hover{
+	background-color: darkslategrey;
+}
+
+#quien a:active{
+	margin-top: -1px;
+}
+
+#filosofia{
+	background-color: rgb(136, 6, 175);
+	color: rgb(0, 0, 0);
+}
+
+#gerente{
+	width: 300px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+#filosofia p{
+	margin: 0 auto;
+	font-size: 2rem;
+	margin-bottom: 10px;
+	line-height: 2.5rem;
+}
+
+#filosofia h2{
+	font-size: 1.5rem;
+	font-family: italic;
+}
+
+#proyectos{
+	text-align: left;
+}
+
+#proyectos h1{
+	font-size: 3.5rem;
+	color: hotpink;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.proy{
+	width: 22.75%;
+	border: 1px solid darkviolet;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.separarIzq{
+	margin-left: 3%;
+}
+
+.separarDer{
+	margin-right: 3%;
+}
+
+.proy:hover{
+	box-shadow: 0 0 10px sienna;
+}
+
+.proy img{
+	width: 100%;
+	height: 120px;
+}
+
+.proy h3{
+	font-size: 1.2rem;
+	font-weight: normal;
+	padding: 20px 0 10px 0;
+}
+
+.proy p{
+	font-size: 1rem;
+	padding: 10px 20px;
+	line-height: 1.5rem;
+}
+
+.proy a{
+	font-size: 1rem;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 5px;
+	width: 110px;
+}
+
+#contacto{
+	background-color: darkorchid;
+	padding-top: 20px;
+	text-align: center;
+	min-width: 320px;
+}
+
+#contacto{
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#mapa{
+	width: 100%;
+	height: 250px;
+}
+
+footer{
+	background-color: darkslategray;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+	padding: 20px 10%;
+	text-align: right;
+}
